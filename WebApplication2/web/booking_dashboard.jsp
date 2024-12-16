@@ -1237,6 +1237,7 @@ th, td {
                                     <th>Movie Date</th>
                                     <th>Details</th>
                                     <th>Status</th>
+                                    <th>Action</th>
                                 </tr>
                             </thead>
 
@@ -1303,6 +1304,9 @@ th, td {
                     </td>
                     <td>
                         <a href="booking_status.jsp?booking_id=<%= booking_id %>"><%= status %></a>
+                    </td>
+                    <td>
+                        <a href="delete_booking.jsp?booking_id=<%= booking_id %>"> <span class="material-icons-sharp delete">delete</span></a>
                     </td>
                 </tr>
 <%       

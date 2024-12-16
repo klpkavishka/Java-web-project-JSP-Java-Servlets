@@ -148,6 +148,18 @@
         <servlet-name>delete_commentServlet</servlet-name>
         <servlet-class>gihan.delete_commentServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>dasboardLogout</servlet-name>
+        <servlet-class>gihan.dasboardLogout</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>dashboardLogout</servlet-name>
+        <servlet-class>gihan.dashboardLogout</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>deleteBooking</servlet-name>
+        <servlet-class>gihan.deleteBooking</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>LoginServelet</servlet-name>
         <url-pattern>/LoginServelet</url-pattern>
@@ -295,6 +307,18 @@
     <servlet-mapping>
         <servlet-name>delete_commentServlet</servlet-name>
         <url-pattern>/delete_commentServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>dasboardLogout</servlet-name>
+        <url-pattern>/dasboardLogout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>dashboardLogout</servlet-name>
+        <url-pattern>/dashboardLogout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>deleteBooking</servlet-name>
+        <url-pattern>/deleteBooking</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
